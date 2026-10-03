@@ -1,0 +1,5 @@
+{
+  "name": "clinical-fhir-deidentification-guard",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}

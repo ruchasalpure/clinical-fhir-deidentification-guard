@@ -1,0 +1,5 @@
+{
+  "protocol": "gitclaw-0.1",
+  "agent": "clinical-fhir-deidentification-guard",
+  "visas": 15
+}

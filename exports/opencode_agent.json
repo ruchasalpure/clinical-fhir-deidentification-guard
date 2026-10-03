@@ -1,0 +1,8 @@
+{
+  "agent_id": "clinical-fhir-deidentification-guard",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

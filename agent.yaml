@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "clinical-fhir-deidentification-guard"
+version: "1.0.0"
+category: "healthcare"
+author: "Rucha Salpure"
+description: "Scans and redacts 18 HIPAA Safe Harbor direct and quasi-identifiers across HL7 FHIR Observation, Encounter, and DiagnosticReport JSON documents"
+capabilities:
+  - "hipaa-phi-scrubbing"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "hipaa-phi-scrubbing"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

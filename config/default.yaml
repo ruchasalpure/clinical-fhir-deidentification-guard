@@ -1,0 +1,6 @@
+app:
+  name: "clinical-fhir-deidentification-guard"
+  environment: "production"
+  logging:
+    level: "INFO"
+    format: "json"
