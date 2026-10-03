@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: clinical-fhir-deidentification-guard
-runtime: python3.11
-entrypoint: agent.py

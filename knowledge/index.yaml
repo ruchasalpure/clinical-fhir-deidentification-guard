@@ -1,5 +1,0 @@
-domain_knowledge:
-  category: "healthcare"
-  agent: "clinical-fhir-deidentification-guard"
-  ontology: "OpenGAP Core Ontology v1.0"
-  indexed_entities: 1024
